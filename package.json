@@ -1,0 +1,28 @@
+{
+  "name": "music-event-app",
+  "version": "1.0.0",
+  "description": "An app using the Spotify and Facebook APIs to suggest fb events based on Spotify listening patterns",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augusten/music-event-app.git"
+  },
+  "author": "Sabrina, Nono, Auguste",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/augusten/music-event-app/issues"
+  },
+  "homepage": "https://github.com/augusten/music-event-app#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "node-sass": "^3.13.0",
+    "pg": "^6.1.0",
+    "pug": "^2.0.0-beta6",
+    "sequelize": "^3.27.0"
+  }
+}
