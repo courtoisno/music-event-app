@@ -26,6 +26,10 @@ app.get( '/ping', ( req, res ) => {
 	res.send( 'pong' )
 })
 
+app.get( '/', (req ,res)=>{
+	res.render('index')
+})
+
 app.listen ( 8000, () => {
 	console.log ( 'up and running ')
 } )
